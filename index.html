@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Robotti</title>
+
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style/main.css" />
+</head>
+<body>
+    <div id="interface">
+        <div id="cpanel">
+            <button id="startstop">Start</button>
+            <button id="step"">Step</button>
+            <button id="reset"">Reset</button>
+            <p>Steps per second</p>
+            <input id="tps" type="number" value="20">
+            <br />
+            <p id="steps">Step count: 0</p>
+        </div>
+        <canvas id="myCanvas" width="2000" height="2000"></canvas>
+    </div>
+
+    <script type="text/javascript" src="src/main.js"></script>
+    <script type="text/javascript">main();</script>
+</body>

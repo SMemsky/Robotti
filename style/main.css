@@ -1,0 +1,38 @@
+body {
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#cpanel {
+    width: 100%;
+    max-width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 5px;
+}
+
+#cpanel button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cpanel p {
+    margin-bottom: 0px;
+}
+
+#interface {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#myCanvas {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
